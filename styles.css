@@ -69,7 +69,6 @@ a {
     justify-content: space-between;
     margin-top: 90px;
     padding: 53px;
-    gap: 52.86px;
 }
 
 #flex-box h1{
@@ -86,7 +85,7 @@ a {
     width: 498.42px;
     height: 447.57px;
     top: 1301px;
-    padding: 53px;
+    padding: 0px;
 }
 
 #images {
