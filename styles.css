@@ -1,6 +1,6 @@
 header {
     position: sticky;
-    width: 100vw;
+    width: 100%;
     height: 87px;
     left: 0px;
     top: 0px;
@@ -8,12 +8,13 @@ header {
 }
 
 #content {
-    width: 791px;
-    height: 546px;
-    margin-right: 93px;
+    width: 546px;
+    height: 791px;
+    margin-right: 154px;
 }
 
 #description {
+    width: 100%;
     top: 140px;
     margin-left: 38px;
     display: flex;
@@ -33,7 +34,7 @@ header {
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 65px;
     font-size: 64px;
     font-weight: 400px;
 }
@@ -44,25 +45,36 @@ p {
     line-height: 29px;
 }
 
-.right {
-    position: absolute;
-    margin-left: 953px;
-}
-
 nav div {
     margin: 29px 38px;
     display: inline-block; 
 }
 
+.left a {
+    left: 38px;
+    margin-left: 0px;
+}
+
+.right a {
+    top: 29px;
+    padding: 29px 29px;
+    left: 400px;
+}
+
+.right {
+    margin-left: 587px;
+}
+
 a {
-    margin: 29px 38px;
+    
+    top: 29px;
     text-decoration: none;
     color: white;
     font-size: 24px;
 }
 
 #image img {
-    width: 729px;
+    width: 709px;
     height: 911px;
 }
 
@@ -71,28 +83,28 @@ a {
     margin-right: 77px;
 }
 
-#flex-box h1{
+#flex-box {
+    width: 100%;
+    left: 50px;
     top: 1154px;
-    margin-left: 50px;
+    padding-bottom: 50px;
 }
 
-#images {
+#flex-box h1{
+    
     margin-left: 50px;
 }
-
-
 
 #images img{
-    width: 498.42px;
-    height: 447.57px;
+    width: 434px;
+    height: 473px;
     top: 1301px;
-    padding: 53px;
+    bottom: 0px;
 }
 
 #images {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0px;
-    gap: 53px;
-    
+    margin-left: 50px;
+    gap: 50px;
 }
