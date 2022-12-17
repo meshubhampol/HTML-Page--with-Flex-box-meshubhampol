@@ -85,13 +85,12 @@ a {
     width: 498.42px;
     height: 447.57px;
     top: 1301px;
-    padding: 0px;
+    padding: 53px;
 }
 
 #images {
     display: flex;
     flex-wrap: wrap;
     margin-left: 0px;
-    margin-right: 77px;
     justify-content: space-between;
 }
