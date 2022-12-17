@@ -1,6 +1,6 @@
 header {
     position: sticky;
-    width: 100%;
+    width: 100vw;
     height: 87px;
     left: 0px;
     top: 0px;
@@ -37,6 +37,7 @@ p {
 }
 
 .right {
+    position: absolute;
     margin-left: 953px;
 }
 
