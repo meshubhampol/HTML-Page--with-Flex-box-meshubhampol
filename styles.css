@@ -84,9 +84,8 @@ a {
 }
 
 #flex-box {
-    position: absolute;
     width: 100%;
-    /* left: 50px; */
+    left: 50px;
     top: 1154px;
     padding-bottom: 50px;
 }
